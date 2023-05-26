@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<h1>Electronics Ecommerce Site</h1>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: blue;
+		}
+		h1{
+			text-align: center;
+		}
+		form {
+			background-color: #333;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+			margin: 50px auto;
+			max-width: 500px;
+		}
+		input[type=text], textarea {
+			width: 100%;
+			padding: 10px;
+			margin: 5px 0;
+			box-sizing: border-box;
+			border: 2px solid #ccc;
+			border-radius: 4px;
+			resize: vertical;
+			
+		}
+		input[type=submit] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			float: right;
+		}
+		input[type=submit]:hover {
+			background-color: #45a049;
+		}
+		label {
+			font-color: white;
+			font-weight: bold;
+			display: block;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+		
+
+<body>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" placeholder="Your name.." required>
+
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email" placeholder="Your email.." required>
+
+		<label for="subject">Subject:</label>
+		<input type="text" id="subject" name="subject" placeholder="Subject.." required>
+
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
